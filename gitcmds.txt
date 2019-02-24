@@ -1,0 +1,8 @@
+yum install git  ---> Install git 
+git init  ---> initialize the directory as local repo
+git status  --> get status of git
+git add linuxcmd.txt  --> add linuxcmd.txt to commit area
+git commit -m"my first commit" --> to move tje commit area to repository
+git remote add origin https://github.com/BijiNair/Devopsmaterial.git   --> add your repository to local repository
+git push -u origin master  --> push repository to Origin
+
