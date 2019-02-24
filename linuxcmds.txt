@@ -1,0 +1,14 @@
+cd opt
+    2  mkdir -p /opt/devops
+    3  ls
+    4  cd opt
+    5  /opt
+    6  dir
+    7  cd devops
+    8  pwd
+    9  ls -l
+   10  cd /opt/devops
+   11  git init
+   12  yum install git -y
+   13  git init
+   14  history
