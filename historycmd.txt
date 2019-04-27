@@ -1,0 +1,1000 @@
+    4  cd Devops
+    5  cd devops
+    6  vi gitcmds.txt
+    7  ls
+    8  git status
+    9  git add gitcmds.txt
+   10  git status
+   11  git commit gitcmds.txt
+   12  cat gitcmds.txt
+   13  git commit -m"git commands"
+   14  git status
+   15  git push -u origin master
+   16  exit
+   17  cd opt
+   18  mkdir -p /opt/devops
+   19  ls
+   20  cd opt
+   21  /opt
+   22  dir
+   23  cd devops
+   24  pwd
+   25  ls -l
+   26  cd /opt/devops
+   27  git init
+   28  yum install git -y
+   29  git init
+   30  history
+   31  vi linuxcmds.txt
+   32  git status
+   33  git add linuxcmds.txt
+   34  git status
+   35  git commit -m"my first commit"
+   36  git status
+   37  git remote add origin https://github.com/BijiNair/Devopsmaterial.git
+   38  git push -u origin master
+   39  ls
+   40  cd .ssh
+   41  ls
+   42  cat id_rsa.pub
+   43  cd
+   44  cd /opt
+   45  vi exmp_file
+   46  ls
+   47  ls -lrt
+   48  ls -l
+   49  vi emp_fle
+   50  vi exmp_file
+   51  ls -l
+   52  cat exmp_file
+   53  ssh root@172.31.43.132
+   54  who
+   55  pwd
+   56  yum install tree -y
+   57  tre
+   58  tree
+   59  whichtree
+   60  which tree
+   61  rpm -qa | grep tree
+   62  ls
+   63  ls -lrt
+   64  ssh-keygen -t rsa
+   65  cat /root/.ssh/id_rsa.pub
+   66  cd ~
+   67  git clone https://github.com/BijiNair/Devopsmaterial.git
+   68  cd Devopsmaterial
+   69  ls
+   70  cd ec2-user
+   71  cd ..
+   72  cd ..
+   73  ls
+   74  ls -la
+   75  cd ec2-user
+   76  cd /opt
+   77  ls
+   78  cd Devopsmaterial
+   79  ls
+   80  cd shellscripting
+   81  ls
+   82  git status
+   83  ls
+   84  tar -tzf homedirbackup_20190302.tar.gz
+   85  tar -tvf homedirbackup_20190302.tar.gz
+   86  ls
+   87  vi functiondemo.sh
+   88  cat functiondemo.sh
+   89  bash functiondemo.sh
+   90  vi argumentpassing.sh
+   91  bash argumentpassing.sh
+   92  echo $?
+   93  vi argumentpassing.sh
+   94  bash argumentpassing.sh
+   95  vi argumentpassing.sh
+   96  bash argumentpassing.sh
+   97  ls
+   98  vi bashargs.sh
+   99  bash bashargs.sh Ubuntu
+  100  vi bashargs.sh
+  101  bash bashargs.sh Ubuntu
+  102  bash bashargs.sh biji
+  103  uname -a
+  104  git status
+  105  git push -u origin master
+  106  ls
+  107  cd .
+  108  cd ..
+  109  git add shellscripting
+  110  git status
+  111  git commit -m"shell commit"
+  112  git remote add origin https://github.com/BijiNair/Devopsmaterial.git
+  113  git push -u origin master
+  114  exit
+  115  cd ~
+  116  ls
+  117  git status
+  118  git clone https://github.com/BijiNair/Devopsmaterial.git
+  119  git status
+  120  cd Devopsmaterial
+  121  git status
+  122  cd shellscripting
+  123  ls
+  124  cd /opt
+  125   git clone https://github.com/BijiNair/Devopsmaterial.git
+  126  cd Devops
+  127  cd Devopsmateral
+  128  cd Devopsmaterial
+  129  git status
+  130  mkdir shellscripting
+  131  cd shellscripting
+  132  vi tardemo.sh
+  133  bash tardemo.sh
+  134  ls
+  135  cd /root
+  136  tar -czf demo.tar *
+  137  ls -la
+  138  tar -tvf
+  139  tar -tvf demo.tar
+  140  man tar
+  141  cd /opt
+  142  ls
+  143  cd Devopsmaterial
+  144  ls
+  145  cd shellscritping
+  146  cd shellscripting
+  147  vi readuserinput.sh
+  148  git init
+  149  bash readuserinout.sh
+  150  bach readuserinput.sh
+  151  bash readuserinput.sh
+  152  cd /opt/Devopmaterial/shellscripting
+  153  cd /opt
+  154  cd Devopsmaterial
+  155  cd shellscripting
+  156  man scp
+  157  scp unirank.csv
+  158  ls
+  159  scp -i unirank.csv
+  160  scp -i unirank.csv unirank.csv
+  161  ls
+  162  git commit -m"shell commit"
+  163  git push -u origin master
+  164  git add shellscripting
+  165  exit
+  166  cd /opt/Devopsmaterial/shellscripting
+  167  ls
+  168  git init
+  169  vi redirection.sh
+  170  bash redirection.sh
+  171  ls
+  172  cat outfile.txt
+  173  cd /opt/Devopsmaterial/shellscripting
+  174  vi redirection.sh
+  175  vi ifelse.sh
+  176  bash ifelse 1
+  177  bash ifelse.sh 1
+  178  bash ifelse.sh 3
+  179  vi ifelse.sh
+  180  bash ifelse.sh 3
+  181  vi ifelse.sh
+  182  bash ifelse.sh 3
+  183  vi ifelse.sh
+  184  bash ifelse.sh 3
+  185  vi ifelse.sh
+  186  bash ifelse.sh 3
+  187  vi ifelse.sh
+  188  bash ifelse.sh 3
+  189  vi directorycheck.sh
+  190  bach directorycheck.sh /opt
+  191  bash directorycheck.sh /opt
+  192  vi directorycheck.sh
+  193  bash directorycheck.sh /opt
+  194  ls
+  195  bash directorycheck.sh /bashargs.sh
+  196  bash directorycheck.sh shellscripting
+  197  bash directorycheck.sh /shellscripting
+  198  bash directorycheck.sh /opt/Devopsmaterial/shellscripting
+  199  vi bash-case.sh
+  200  bash bach-case.sh
+  201  bash bash-case.sh
+  202  bash bash-case.sh
+  203  bash bash-case.sh
+  204  bash bash-case.sh
+  205  bash bash-case.sh
+  206  vi bash-for-loop.sh
+  207  bash-for-loop.sh
+  208  bash bash-for-loop.sh
+  209  vi bash-for-loop.sh
+  210  bash bash-for-loop.sh
+  211  man echo
+  212  vi bash-for-loop.sh
+  213  vi bash-for-loop.sh
+  214  bash bash-for-loop.sh
+  215  vi bash-for-loop.sh
+  216  bash bash-for-loop.sh
+  217  vi bash-for-loop.sh
+  218  bash bash-for-loop.sh
+  219  vi c-styoe-loop
+  220  bash c-styoe-loop
+  221  ls
+  222  man rename
+  223  rename c-styoe-loop c-style-loop.sh
+  224  vi bash-whileloop.sh
+  225  bash bash-whileloop.sh
+  226  man rename
+  227  rename "c-styoe-loop" "c-style-loop.sh"
+  228  rename -h
+  229  mv c-styoe-loop c-style-loop.sh
+  230  ls
+  231  vi comifelse.sh
+  232  bash comifesle.sh
+  233  bash comifelse.sh
+  234  vi comifelse.sh
+  235  bash comifelse.sh
+  236  bash comifelse.sh
+  237  vi comifelse.sh
+  238  bash comifelse.sh
+  239  vi comifelse.sh
+  240  bash comifelse.sh
+  241  bash comifelse.sh
+  242  cat comifelse.sh
+  243  cd /opt/Devopsmaterial/shellscripting
+  244  cd /opt/Devopsmaterial/shellscripting
+  245  ls
+  246  cd Decopsmaterial
+  247  cd Devopsmaterial
+  248  cd shellscripting
+  249  ls
+  250  cd ..
+  251  cd /opt
+  252  ls
+  253  cd Devopsmaterial
+  254  ls
+  255  cd shellscripting
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd ..
+  260  ls
+  261  cd tmp
+  262  cd ..
+  263  cd opt
+  264  ls
+  265  cd devops
+  266  ls
+  267  cd ..
+  268  cd Devopsmaterial
+  269  ls
+  270  cd shellscripting
+  271  ls
+  272  sudo ec2-user
+  273  ec2-user
+  274  sudo
+  275  cd ..
+  276  cd ..
+  277  cd ..
+  278  cd ..
+  279  ls
+  280  cd home
+  281  ls
+  282  cd ec2-user
+  283  ls
+  284  ls
+  285  ls -la
+  286  cd ..
+  287  ls
+  288  cd //etc/profile.d/lang.sh
+  289  cd /etc
+  290  ls
+  291  ls
+  292  cd /home
+  293  cd ec2-user
+  294  ls
+  295  exit
+  296  ls
+  297  cd tmp
+  298  tmp
+  299  vi tmp
+  300  cd Devopsmaterial
+  301  ls
+  302  cd ..
+  303  cd /opt
+  304  ls
+  305  exit
+  306  ls
+  307  cd ~
+  308  ls
+  309  man rename
+  310  rename tmp unirank.csv
+  311  ls
+  312  man rename
+  313  mv tmp unirank.csv
+  314  ls
+  315  vi unirank.csv
+  316  cd Devopsmaterial
+  317  ls
+  318  cd ..
+  319  ls
+  320  mv unirank.csv /opt/Devopsmaterial/shellscripting
+  321  ls
+  322  cd /opt/Devopsmaterial/shellscripting
+  323  ls
+  324  head unirank.csv
+  325  head -n 25 unirank.csv
+  326  yum install python3-csvkit
+  327  exit
+  328  cd opt
+  329  cd /opt
+  330  ls
+  331  cd Devopsmaterial
+  332  ls
+  333  cd shellscripting
+  334  man scp
+  335  scp unirank
+  336  cd /etc/ssh
+  337  ls
+  338  ls -la
+  339  vi sshd_config
+  340  cat sshd_config
+  341  vi sshd_config
+  342  cd /opt
+  343  cd Devopsmaterial
+  344  cd shellscripting
+  345  path
+  346  scp unirank root@ip-172-31-36-177:/opt/Devopsmaterial/shellscripting
+  347  man scp
+  348  scp localhost:/Desktop/Devops/unirank root@ip-172-31-36-177:/opt/Devopsmaterial/shellscripting
+  349  cd /etc/shh
+  350  cd /etc/ssh
+  351  ls
+  352  vi sshd_config
+  353  vi sshd_configss
+  354  service sshd restart
+  355  passwd 
+  356  cd /opt/Devopsmaterial
+  357  git status
+  358  git add
+  359  git add shellscripting
+  360  git commit -m"shell"
+  361  git remote add origin https://github.com/BijiNair/Devopsmaterial.git 
+  362  git push -u origin master
+  363  git status
+  364  cd shellscripting
+  365  ls
+  366  yum install csvkit
+  367  yum install python-csvkit
+  368  yum install python3-csvkit
+  369  pip install csvkit
+  370  yum install pip install csvkit
+  371  yum install python3-csvkit
+  372  exit
+  373  /etc
+  374  cd /etc
+  375  ls
+  376  vi hosts
+  377  echo 172.31.43.132 server01 | sudo tee -a /etc/hosts
+  378  vi hosts
+  379  ssh root@server01 uptime
+  380  vi /ssh/authorized_keys2
+  381  cd ssh/authorized_keys2
+  382  cd /ssh/authorized_keys2
+  383  cd /ssh
+  384  cd ..
+  385  ls -la
+  386  cd .ssh
+  387  cd /root
+  388  ls
+  389  cd /ssh
+  390  cd .ssh
+  391  ls
+  392  vi authorized_keys
+  393  vi id_rsa
+  394  vi id_rsa.pub
+  395  ls -la
+  396  cat authorized_keys
+  397  ssh root@ip-172-31-43-132
+  398  ls
+  399  cat is_rsa.pub
+  400  cat id_rsa.pub
+  401  ssh root@server01 uptime
+  402  vi /opt/servers
+  403  cd /opt
+  404  for SERVER in $(cat /opt/servers); do  ssh ${SERVER} hostname;  ssh ${SERVER} uptime; done
+  405  ssh root@server01 uptime;hostname
+  406  ping -a 172.31.43.132
+  407  cd ..
+  408  ls
+  409  cd /Devopsmaterial
+  410  cd ..
+  411  ls
+  412  cd usr
+  413  ls
+  414  cd /home
+  415  ls
+  416  cd ..
+  417  cd /usr
+  418  ls
+  419  cd ..
+  420  exit
+  421  ls
+  422  cd ..
+  423  ls
+  424  cd ..
+  425  ls
+  426  git statu
+  427  git status
+  428  cd home
+  429  ls
+  430  cd ec2-user
+  431  cd /opt
+  432  cd Devopsmaterial
+  433  cd shellscripting
+  434  vi pingserver.sh
+  435  vi opt/servers
+  436  cd /opt
+  437  ls 
+  438  cat servers
+  439  cd /opt/Devopsmaterial/shellscriptign
+  440  cd /opt/Devopsmaterial/shellscripting
+  441  ls
+  442  car pingserver.sh
+  443  cat pingserver.sh
+  444  bash pingserver.sh
+  445  vi pingserver.sh
+  446  vi pingserver.sh
+  447  bash pingserver.sh
+  448  vi runevery-where.sh
+  449  bash runevery-where.sh
+  450  ./run-everywhere.sh -n hostname
+  451  bash run-everywhere.sh -n hostname
+  452  bash runevery-where.sh -n hostname
+  453  ./runevery-where.sh -n hostname
+  454  bash runevery-where.sh -v uptime
+  455  exit
+  456  bash runevery-where.sh -v uptime
+  457  bash pingserver.sh
+  458  cd /opt/Devopsmaterial/shellscripting
+  459  bask pingserver.sh
+  460  bash pingserver.sh
+  461  ping -a 172.31.43.132
+  462  exit
+  463  cd 
+  464  ls
+  465  cd /usr
+  466  ls
+  467  cd ..
+  468  ls
+  469  cd root
+  470  ls
+  471  cd /lib
+  472  ls
+  473  cd /opt/Devopsmaterial
+  474  cd shellscripting
+  475  vi runevery-where.sh
+  476  ./runevery-where.sh -n hostname
+  477  bash runevery-where.sh 
+  478  bash runevery-where.sh -n 
+  479  bash runevery-where.sh -n 
+  480  bash runevery-where.sh -s hostname
+  481  bash runevery-where.sh -n hostname
+  482  vi apacheinstall.sh
+  483  bash apacheinstall.sh server01
+  484  service httpd status
+  485  curl http://172.31.43.132
+  486  curl --request GET -v http://172.31.43.132
+  487  curl -i http://172.31.43.132
+  488  curl -so -i /dev/null -w "%{http_code}" http://172.31.43.132
+  489  curl -o /dev/null -s -w "%{http_code}\n" http://172.31.43.132
+  490  vi pidcount.sh
+  491  vi pidcount.sh
+  492  ssh root@server01 $(pidof httpd)
+  493  ssh root@server01 "$(pidof httpd)"
+  494  ssh root@server01 httpd
+  495  ./pidcount.sh
+  496  chmod 755 pidcount.sh
+  497  ./pidcount.sh httpd
+  498  ssh root@server01 pidof httpd
+  499  vi pidcount.sh
+  500  bash pidcount.sh httpd
+  501  vi pidcount.sh
+  502  bash pidcount.sh httpd
+  503  vi pidcount.sh
+  504  bash pidcount.sh httpd
+  505  bash pidcount.sh httpd servre01
+  506  bash pidcount.sh httpd server01
+  507  exit
+  508  cd /etc
+  509  cd yum.repos.d
+  510  vi ansible.repo
+  511  yum update
+  512  vi ansible.repo
+  513  cd etc
+  514  cd /etc
+  515  ls -lrt
+  516  cd ansible
+  517  cd
+  518  cd ansible
+  519  ls
+  520  cd /etc/ansible
+  521  ls
+  522  cd nginxdemo
+  523  ls
+  524  cd config
+  525  ls
+  526  vi index.html
+  527  cd ..
+  528  ls
+  529  ansible-playbook install-nginx.yaml
+  530  exit
+  531  sudo su -
+  532  cd /etc
+  533  cd yum.repos.d
+  534  vi ansible.repo
+  535  yum update
+  536  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  537  yum -y install ansible
+  538  ansible --version
+  539  vi home/charlie/.ssh/id_rsa.pub
+  540  cd /etc
+  541  ls -lrt
+  542  cd ansible
+  543  ls -lrt
+  544  cd hosts
+  545  vi hosts
+  546  ls
+  547  vi ex1.yaml
+  548  vi web_vars.yml
+  549  ex1.yaml
+  550  ansible-playbook ex1.yaml
+  551  ls
+  552  ls -lrt
+  553  vi hosts
+  554  ls -lrt
+  555  ansible-playbook ex1.yaml
+  556  ssh-agent bach
+  557  ssh-agent bash
+  558  ssh-add ~/.ssh/id_rsa
+  559  ansible all -m ping
+  560  ansible-playbook ex1.yaml
+  561  ansible all -a "/bin/echo hello"
+  562  ls
+  563  vi hosts
+  564  ansible-playbook ex1.yaml
+  565  vi ex1.yaml
+  566  ansible-playbook ex1.yaml
+  567  vi ex1.yaml
+  568  ansible-playbook ex1.yaml
+  569  ls -lrt
+  570  mkdir nginxdemo
+  571  ls
+  572  cd nginxdemo
+  573  vi nginxdemo.yaml
+  574  ls
+  575  vi install-nginx.yaml
+  576  mkdir config
+  577  vi nginx.conf
+  578  ls -lrt
+  579  mv nginx.conf /config
+  580  ls 
+  581  ls -lrt
+  582  cd config
+  583  ls -lrt
+  584  vi nginx.conf
+  585  vi mywebsite.conf
+  586  vi index.html
+  587  cd ..
+  588  ls
+  589  ansible-playbook install-nginx.yaml
+  590  cd ..
+  591  ls
+  592  vi /nginxdemo/intall-nginx.yaml
+  593  vi nginxdemo/intall-nginx.yaml
+  594  ls
+  595  vi hosts
+  596  cd nginxdemo
+  597  ls
+  598  vi install-nginx.yaml
+  599  ansible-playbook install-nginx.yaml
+  600  yum search httpd
+  601  vi install-nginx.yaml
+  602  ansible-playbook install-nginx.yaml
+  603  vi install-nginx.yaml
+  604  ansible-playbook install-nginx.yaml
+  605  vi install-nginx.yaml
+  606  ansible-playbook install-nginx.yaml
+  607  vi install-nginx.yaml
+  608  ansible-playbook install-nginx.yaml
+  609  vi install-nginx.yaml
+  610  ansible-playbook install-nginx.yaml
+  611  vi install-nginx.yaml
+  612  ansible-playbook install-nginx.yaml
+  613  vi install-nginx.yaml
+  614  ansible-playbook install-nginx.yaml
+  615  vi install-nginx.yaml
+  616  ansible-playbook install-nginx.yaml
+  617  vi install-nginx.yaml
+  618  ansible-playbook install-nginx.yaml
+  619  vi install-nginx.yaml
+  620  ansible-playbook install-nginx.yaml
+  621  vi install-nginx.yaml
+  622  rm install-nginx.yaml
+  623  vi install-nginx.yaml
+  624  ansible-playbook install-nginx.yaml
+  625  vi install-nginx.yaml
+  626  cd config
+  627  ls
+  628  vi nginx.conf
+  629  vi mywebsite.conf
+  630  cd ..
+  631  vi install-nginx.yaml
+  632  cd config
+  633  vi nginx.conf
+  634  cd ..
+  635  vi install-nginx.yaml
+  636  ansible-playbook install-nginx.yaml
+  637  vi install-nginx.yaml
+  638  ansible-playbook install-nginx.yaml
+  639  vi install-nginx.yaml
+  640  ansible-playbook install-nginx.yaml
+  641  vi install-nginx.yaml
+  642  ansible-playbook install-nginx.yaml
+  643  vi install-nginx.yaml
+  644  ansible-playbook install-nginx.yaml
+  645  cd config
+  646  ls
+  647  vi index.html
+  648  cd ..
+  649  ansible-playbook install-nginx.yaml
+  650  ls -lrt
+  651  cd /etc
+  652  ls
+  653  cd ..
+  654  cd /opt
+  655  ls
+  656  cd ..
+  657  cd etc
+  658  cd ansible
+  659  ls
+  660  mkdir instdemo
+  661  ls instdemo
+  662  vi createec2.yaml
+  663  cd instdemo
+  664  vi createec2.yml
+  665  ansible-playbook createec2.yml
+  666  sudo /usr/bin/python -m easy_install pip
+  667  sudo /usr/bin/python -m pip install boto
+  668  ansible-playbook createec2.yml
+  669  cd ~/.ssh
+  670  ls
+  671  vi server1.pem
+  672  chmod 777 server1.pem
+  673  chmod 600 server1.pem
+  674  cd
+  675  cd /etc
+  676  cd ansible
+  677  cd instdemo
+  678  ls
+  679  vi createec2.retry
+  680  cd ..
+  681  ls
+  682  cd instdemo
+  683  ls
+  684  ansible-playbook createec2.yml
+  685  cd /etc/ansible
+  686  git clone https://github.com/maheshkharwadkar/devops.git
+  687  ls -lrt
+  688  cd cd devops/ansible/e2eproject
+  689  cd devops
+  690  ls
+  691  cd ansible
+  692  ls
+  693  ls -lrt
+  694  cd e2eproject
+  695  ls
+  696  cd roles
+  697  ls
+  698  cd tomcat_aws
+  699  ls
+  700  vi defaults/main.yml
+  701  vi tasks/aws-ec2.yml
+  702  cd ..
+  703  ls
+  704  vi ansible.cfg
+  705  vi deploy.yml
+  706  ansible-playbook deploy.yml
+  707  ls
+  708  vi deploy.yml
+  709  vi deploy.retry
+  710  ls
+  711  cd roles
+  712  ls
+  713  cd tomcat_aws
+  714  ls
+  715  cd tasks
+  716  ls
+  717  vi main.yml
+  718  vi aws_ec2.yml
+  719  vi aws-ec2.yml
+  720  cd ..
+  721  ls
+  722  cd vars
+  723  ls
+  724  vi main.yml
+  725  cd ..
+  726  cd handlers
+  727  ls
+  728  vi main.yml
+  729  cd ..
+  730  ls
+  731  cd ..
+  732  ls
+  733  cd tomcat
+  734  ls
+  735  cd tasks
+  736  ls
+  737  vi configure_tomcat.yml
+  738  vi install_packages.yml
+  739  cd /etc
+  740  cd ansible
+  741  ls
+  742  cd devops
+  743  ls
+  744  cd ansible
+  745  ls
+  746  cd e2eproject
+  747  ls
+  748  vi deploy.ym
+  749  vi deploy.yml
+  750  ls
+  751  vi ansible.cfg
+  752  vi get-pip.py
+  753  vi ansible.cfg
+  754  cd roles
+  755  vi
+  756  ls
+  757  vi tomcat
+  758  cd tomcat
+  759  ls
+  760  cd tasks
+  761  ks
+  762  ls
+  763  vi main.yml
+  764  vi configure_tomcat.yml
+  765  vi creat_user.yml
+  766  vi create_users.yml
+  767  vi install_packages.yml
+  768  ls
+  769  ls -lrt
+  770  vi main.yml
+  771  exit
+  772  cd /etc
+  773  ls
+  774  cd ansible
+  775  ls
+  776  cd devops
+  777  ls
+  778  cd ..
+  779  cd instdemo
+  780  ls
+  781  cd ..
+  782  cd nginxdemo
+  783  ls
+  784  vi install-nginx.yaml
+  785  cd ..
+  786  cd yum.repos.d
+  787  ls
+  788  vi ansible.repo
+  789  cd ..
+  790  cd ansible
+  791  ls
+  792  cd roles
+  793  ls
+  794  cd ..
+  795  cd ex1.yaml
+  796  vi ex1.yaml
+  797  cd devops
+  798  ls
+  799  cd ansible
+  800  ls
+  801  cd e2eproject
+  802  ls
+  803  vi deploy.yml
+  804  cd roles
+  805  ls
+  806  vi tomcat_aws
+  807  vi tomcat
+  808  cd /etc
+  809  cd ansible
+  810  ls
+  811  cd devops
+  812  ls
+  813  cd ansible
+  814  ls
+  815  cd e2eproject
+  816  tree
+  817  la
+  818  ls
+  819  cd roles
+  820  ls
+  821  exit
+  822  cd /etc
+  823  ls
+  824  cd ansible
+  825  ls
+  826  cd devops
+  827  ls
+  828  cd ansible
+  829  ls
+  830  path
+  831  scp -r /etc/ansible/devops root@ip-172-31-36-177:/opt
+  832  scp -r /etc/ansible/devops root@ip-172-31-38-169:/opt
+  833  ssh root@ip-172-31-38-169
+  834  scp -r /etc/ansible/devops root@ip-172-31-38-169:/opt
+  835  cd /etc/ansible/devops/ansible
+  836  ls
+  837  cd e2eproject
+  838  cd tomcat
+  839  ls
+  840  cd roles
+  841  cd tomcat
+  842  ls
+  843  cd tasks
+  844  ansible-playbook main.yml
+  845  vi main.yml
+  846  ansible-playbook main.yml
+  847  vi main.yml
+  848  ansible-playbook main.yml
+  849  vi main.yml
+  850  ansible-playbook main.yml
+  851  vi main.yml
+  852  ansible-playbook main.yml
+  853  ls
+  854  vi create_user.yml
+  855  vi create_users.yml
+  856  ansible-playbook main.yml
+  857  vi create_users.yml
+  858  ansible-playbook main.yml
+  859  vi create_users.yml
+  860  ansible-playbook main.yml
+  861  vi create_users.yml
+  862  ansible-playbook main.yml
+  863  vi create_users.yml
+  864  ansible-playbook main.yml
+  865  vi create_users.yml
+  866  cd ..
+  867  ls
+  868  cd tests
+  869  ls
+  870  vi test.yml
+  871  ansible-playbook test.yml
+  872  mv test.yml /etc/ansible/devops/ansible/e2eproject/roles/tomcat/tasks
+  873  cd ..
+  874  ls
+  875  cd tasks
+  876  ls
+  877  cd ..
+  878  ls
+  879  cd ..
+  880  ls
+  881  cd tomcat
+  882  cd ..
+  883  ls
+  884  vi deply.yml
+  885  vi deploy.yml
+  886  mv /etc/ansible/devops/ansible/e2eproject/roles/tomcat/tasks/test.yml
+  887  mv /etc/ansible/devops/ansible/e2eproject/roles/tomcat/tasks/test.yml /etc/ansible/devops/ansible/e2eproject
+  888  ls
+  889  ansible-playbook test.yml
+  890  service tomcat status
+  891  systemctl status tomcat
+  892  vi /root/.ssh/server1.pem
+  893  scp /root/.ssh/server1.pem root@ip-172-31-38-169:/root/.ssh/server1.pem
+  894  exit
+  895  sudo su -
+  896  exit
+  897  cd /opt
+  898  ls
+  899  cd starter-web
+  900  ls
+  901  cat humans.txt
+  902  cat readme.md
+  903  cat README.md
+  904  git init
+  905  cd ..
+  906  git init
+  907  mkdir remotebranchdemo
+  908  cd remotebranchdemo
+  909  ls
+  910  git init
+  911  vi myfile.txt
+  912  git commit -m "first commit"
+  913  git add myfile.txt
+  914  git commit -m "first commit"
+  915  git status
+  916  git remote add origin https://github.com/BijiNair/remotebranchdemo.git
+  917  git push -u origin master
+  918  git status
+  919   git checkout -b demo1
+  920  vi myfile.txt
+  921  git commit -am "Demo1"
+  922   git checkout master
+  923  vi myfile.txt
+  924  git commit -am "Changes to master"
+  925  git log --oneline --decorate --all --graph
+  926  git checkout Demo1
+  927  git checkout demo1
+  928  git rebase master
+  929  git log --oneline --decorate --all --graph
+  930  vi myfile.txt
+  931  git commit -am "Commit after rebasing"
+  932  git log --oneline --decorate --all --graph
+  933  git checkout master
+  934  cat myfile.txt
+  935  git diff master demo1
+  936  git merge demo1
+  937  git log --oneline --decorate --all --graph
+  938  ls
+  939  cat myfile.txt
+  940  git merge demo1
+  941  git commit -a "Comit"
+  942  git checkout demo1
+  943  git merger demo1
+  944  git merge demo1
+  945  gti rebase master
+  946  git rebase master
+  947  rm -fr "/opt/remotebranchdemo/.git/rebase-apply"
+  948  git rebase master
+  949  cat myfile.txt
+  950  git log --oneline --decorate --all --graph
+  951  get diff master demo1
+  952  git diff master demo1
+  953  git checkout master
+  954  get merge demo1
+  955  git merge demo1
+  956  git add .
+  957  git stash
+  958  cat myfile.txt
+  959  git checkout demo1
+  960  cat myfile.txt
+  961  ls
+  962  git diff master demo1
+  963  git checkout master
+  964  git diff master demo1
+  965  git merger demo1
+  966  git merge demo1
+  967  git mergetool
+  968  git push
+  969  get checkout -b mybranchdemo
+  970  git checkout -b mybranchdemo
+  971  git checkout -b demo1
+  972  git commit -am "demo1"
+  973  git status
+  974  git checkout demo1
+  975  git status
+  976  git push
+  977  git reset -merge
+  978  git reset --merge
+  979  gte checkout -b mybranchdemo
+  980  git checkout -b mybranchdemo
+  981  vi demofile.txt
+  982  get commit -am "commit to local"
+  983  git commit -am "commit to local"
+  984  git push
+  985  ls
+  986  git config --global push.default simple
+  987  git add demofile.txt
+  988  git push
+  989  git push --set-upstream origin mybranchdemo
+  990  git statu
+  991  git status
+  992  git commit -a "comit demo file"
+  993  git commit -am "comit demo file"
+  994  git status
+  995  git push
+  996  history
+  997  cd ..
+  998  ls
+  999  cd Devopsmateral
+ 1000  cd Devopsmaterial
+ 1001  ls
+ 1002  git init
+ 1003  history > historycmd.txt
